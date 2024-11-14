@@ -1,11 +1,11 @@
 
 
-/* Body styling */
+/* styling */
 body {
-    font-family: Arial, sans-serif; /* Simple, readable font */
-    background-color: #f0f8ff; /* Light blue background to represent the sky */
-    color: #333; /* Dark gray text color */
-    line-height: 1.6; /* Adds a bit of spacing between lines for readability */
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    color: #333;
+    line-height: 1.6;
 }
 
 
@@ -15,75 +15,62 @@ body {
     padding: 20px;
 }
 
-/* Header styling */
-header {
-    background-color: #5b92e5; /* Deep blue background for header */
-    color: white; /* White text color for contrast */
+/* title */
+.head {
+    background-color: #5b92e5; 
+    color: white; 
     padding: 20px 0;
     text-align: center;
 }
 
-header h1 {
-    font-size: 2.5em; /* Makes the main heading stand out */
+.head h1 {
+    font-size: 2.5em; 
     margin-bottom: 10px;
 }
 
-/* Navigation bar */
-nav {
-    background-color: #4a90e2; /* Slightly darker blue */
+/* links */
+.pages {
+    background-color: #4a90e2;
     padding: 10px;
     text-align: center;
 }
 
-nav a {
+.pages a {
     color: white;
-    text-decoration: none; /* Removes underline from links */
+    text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
     font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #357ab8; /* Darkens on hover */
+.pages a:hover {
+    background-color: #357ab8;
 }
 
-/* Main content area */
-main {
+.pages a:active {
+    color: khaki;
+}
+
+/*main stuff*/
+.main {
     padding: 20px;
 }
 
-main h2 {
+.main h2 {
     font-size: 2em;
-    color: #2e8b57; /* Sea green for subheadings */
+    color: #2e8b57;
     margin-bottom: 15px;
 }
 
-p {
+.main p {
     margin-bottom: 15px;
 }
 
-/* Basic layout for two columns */
-.section {
-    display: flex;
-    flex-wrap: wrap; /* Makes it mobile-friendly */
-    gap: 20px;
-}
-
-.section .column {
-    flex: 1;
-    min-width: 250px; /* Ensures columns don't get too narrow */
-    padding: 10px;
-    background-color: #ffffff; /* White background for content */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
-}
-
-/* Footer */
 footer {
     background-color: #4a90e2;
     color: white;
     padding: 10px;
     text-align: center;
     margin-top: 20px;
-    font-size: 0.9em; /* Slightly smaller text for footer */
+    font-size: 0.9em; 
 }
